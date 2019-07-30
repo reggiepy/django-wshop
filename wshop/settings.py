@@ -73,7 +73,7 @@ REST_FRAMEWORK = {
     ]
 }
 
-MIDDLEWARE = [
+MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -115,7 +115,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django-wshop',
         'USER': 'root',
-        'PASSWORD': '123456',
+        'PASSWORD': 'wangtong!@#$',
         'HOST': 'localhost',
         'PORT': '3306',
     }
